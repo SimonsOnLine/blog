@@ -8,6 +8,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/avatar.jpeg' }]
   ],
+  base: "/blog/",
   themeConfig: {
     repo: "Ean-Liu/blog",
     nav: [
