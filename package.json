@@ -1,0 +1,24 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "lint-md ./docs/blog",
+    "lint:fix": "lint-md ./docs --fix",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "commit": "npx git-cz"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lint-md-cli": "^0.1.2",
+    "vuepress": "^1.4.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "@vuepress/plugin-medium-zoom": "^1.4.0",
+    "husky": "^4.2.5",
+    "lint-md": "^0.2.0",
+    "prettier": "^2.0.4"
+  }
+}
