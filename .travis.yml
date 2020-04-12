@@ -8,8 +8,7 @@ node_js:
 before_install:
   - npm install
 script:
-#   - npm run build
-    - ./deploy.sh
+  - npm run build
 deploy:
   provider: pages
   target-branch: master
