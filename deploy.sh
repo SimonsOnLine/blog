@@ -10,12 +10,12 @@ cd docs/.vuepress/dist
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
-# git init
+git init
 git add -A
 git commit -m ':checkered_flag:'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f git@github.com:<Ean-Liu>/<Ean-Liu>.github.io.git master
+git push -f git@github.com:<Ean-Liu>/<Ean-Liu>.github.io.git
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
